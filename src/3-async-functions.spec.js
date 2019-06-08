@@ -35,7 +35,6 @@ const planets1 = {
   url: "https://swapi.co/api/planets/1/"
 }
 
-
 describe("Assignment 3 - async", function() {
   afterEach(function() {
     nock.cleanAll()
