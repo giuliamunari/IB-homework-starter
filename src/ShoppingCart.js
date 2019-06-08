@@ -1,4 +1,4 @@
-class Pippo {
+class ShoppingCart {
     constructor(){
        this.items = []
     }
@@ -20,4 +20,4 @@ class Pippo {
     }
 }
 
-module.exports = Pippo
+module.exports = ShoppingCart
