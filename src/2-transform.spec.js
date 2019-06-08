@@ -1,6 +1,6 @@
 const assert = require("assert")
 
-describe("Assignment 2 - transform", function () {
+describe.only("Assignment 2 - transform", function () {
   it("JS file should exist, and exported value should be a function", function () {
     const groupAdultsByAgeRange = require("./transform").groupAdultsByAgeRange
     assert.strictEqual(typeof groupAdultsByAgeRange, "function", "groupAdultsByAgeRange should be a function")
